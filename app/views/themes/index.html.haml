@@ -1,0 +1,23 @@
+%h1= t('themes.index.title')
+
+%table
+  %thead
+    %tr
+      %th= t('images.index.name')
+      %th= t('themes.index.qty')
+      %th
+      %th
+      %th
+
+  %tbody
+    - @themes.each do |theme|
+      %tr
+        %td= theme.name
+        %td= theme.qty_items
+        %td= link_to t('images.edit.show'), theme
+        %td= link_to t('images.edit.edit'), edit_theme_path(theme)
+        %td= link_to t('images.edit.destroy'), theme, method: :delete, data: { confirm: t('images.index.sure') }
+
+%br
+
+= link_to t('themes.index.new'), new_theme_path

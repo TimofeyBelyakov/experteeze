@@ -1,0 +1,117 @@
+ru:
+  hello: "Привет, мир"
+
+  shared:
+    header:
+      logo_title: "Experteese на Ruby_on_Rails"
+      home: "Главная"
+      help: "Помощь"
+      sign_in: "Войти"
+      sign_out: "Выйти"
+      person: "Я"
+      profile: "Моя страница"
+      settings: "Настройки"
+      about: "О сайте"
+      contacts: "Контакты"
+      work: "Не волк"
+    footer:
+      dev_msg: "Сайт в разработке"
+
+  sessions:
+    new:
+      sign_in: "Войти"
+      sign_up: "Зарегистрироваться"
+      email: "E-mail"
+      password: "Пароль"
+      new_user?: "Новый пользователь?"
+
+  users:
+    form:
+      name: "Имя"
+      email: "E-mail"
+      password: "Пароль"
+      password_confirmation: "Подтверждение пароля"
+      create_account: "Создать мой аккаунт"
+    new:
+      new_user_sign_up: "Регистрация нового пользователя"
+      back: "Назад"
+    show:
+      work: "К оценке"
+      email: "Email"
+      edit: "Редактировать профиль"
+      back: "Назад"
+    edit:
+      title: "Редактирование пользователя"
+    index:
+      title: "Список пользователей"
+      new: "Новый пользователь"
+
+  work:
+    index:
+      def_select_theme: "Выберите тему для оценки"
+      common_value: "Средняя оценка"
+      total_values: "Всего оценок"
+      make_decision: "Выберите свою оценку"
+      save_decision: "Сохранить"
+      share_opinion: "Поделись своим мнением"
+    button_theme_select:
+      select_theme_button: "Выбрать тему"
+    button_list_results:
+      results_list: "Результаты"
+    choose_theme_from_arr:
+      select_theme: "Выберите тему"
+      theme_name: "Тема"
+    display_theme:
+      select_theme: "Выберите тему для оценки"
+    results_list:
+      no_values: "Результаты по выбранной теме отсутствуют..."
+      select_theme: "Выберите другую тему"
+      return_to_main: "На главную"
+      page_title: "Перейдите к выбору темы"
+
+  main:
+    index:
+      main_page: "Главная страница"
+      proceed: "К оцениванию!"
+      welcome: "Добро пожаловать в Experteeze!"
+      sign_up_now: "Зарегистрироваться"
+      ruby_website: "Сайт Ruby on Rails"
+      contacts: "Контакты"
+      help: "Помощь"
+      about: "О сайте"
+
+  images:
+    form:
+      save_btn: "Сохранить"
+    edit:
+      show: "Показать"
+      edit: "Редактировать"
+      destroy: "Удалить"
+      back: "Назад"
+      title: "Редактирование изображения"
+    index:
+      new_image: "Новое Изображение"
+      theme: "Тема"
+      avg: "Сред. оценка"
+      file: "Файл"
+      name: "Имя"
+      title: "Список изображений"
+      sure: "Вы уверены?"
+
+  themes:
+    edit:
+      title: "Редактирование темы"
+    index:
+      title: "Список тем"
+      qty: "Количество"
+      new: "Новая тема"
+
+  values:
+    edit:
+      title: "Редактирование оценок"
+    index:
+      title: "Список оценок"
+      user: "Пользователь"
+      value: "Оценка"
+      image: "Изображение"
+      new: "Новая оценка"

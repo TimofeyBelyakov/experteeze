@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b= t('values.index.user')
+  %b :
+  = @value.user_id
+%p
+  %b= t('values.index.image')
+  %b :
+  = @value.image_id
+%p
+  %b= t('values.index.value')
+  %b :
+  = @value.value
+
+= link_to t('images.edit.edit'), edit_value_path(@value)
+\|
+= link_to t('images.edit.back'), values_path

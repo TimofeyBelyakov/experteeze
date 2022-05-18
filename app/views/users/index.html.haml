@@ -1,0 +1,23 @@
+%h1= t('users.index.title')
+
+%table
+  %thead
+    %tr
+      %th= t('images.index.name')
+      %th Email
+      %th
+      %th
+      %th
+
+  %tbody
+    - @users.each do |user|
+      %tr
+        %td= user.name
+        %td= user.email
+        %td= link_to t('images.edit.show'), user
+        %td= link_to t('images.edit.edit'), edit_user_path(user)
+        %td= link_to t('images.edit.destroy'), user, method: :delete, data: { confirm: t('images.index.sure') }
+
+%br
+
+= link_to t('users.index.new'), new_user_path

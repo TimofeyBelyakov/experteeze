@@ -1,0 +1,118 @@
+en:
+  hello: "Hello world"
+
+  shared:
+    header:
+      logo_title: "Experteese in Ruby_on_Rails"
+      home: "Home"
+      help: "Help"
+      sign_in: "Sign in"
+      sign_out: "Sign out"
+      person: "Me"
+      profile: "My page"
+      settings: "Settings"
+      about: "About"
+      contacts: "Contacts"
+      work: "Work"
+    footer:
+      dev_msg: "App is in Development"
+
+  sessions:
+    new:
+      sign_in: "Sign in"
+      sign_up: "Sign up"
+      email: "E-mail"
+      password: "Password"
+      new_user?: "New user?"
+
+  users:
+    form:
+      name: "Name"
+      email: "E-mail"
+      password: "Password"
+      password_confirmation: "Password confirmation"
+      create_account: "Create my account"
+    new:
+      new_user_sign_up: "New user sign up"
+      back: "Back"
+    show:
+      work: "Proceed to work"
+      email: "Email"
+    edit:
+      title: "Editing user"
+    index:
+      title: "Listing users"
+      new: "New User"
+
+  work:
+    index:
+      def_select_theme: "Select theme to leave your answer"
+      common_value: "Common value"
+      total_values: "Total values"
+      make_decision: "Make your decision"
+      save_decision: "Save"
+      share_opinion: "Share your opinion"
+    button_theme_select:
+      select_theme_button: "Select theme"
+    button_list_results:
+      results_list: "List results"
+    choose_theme_from_arr:
+      select_theme: "Select theme to leave your answer"
+    choose_theme:
+      select_theme: "Select theme ch"
+      theme_name: "Theme name"
+    display_theme:
+      select_theme: "Select theme"
+    results_list:
+      no_values: "No Values results for selected theme..."
+      select_theme: "Select other theme"
+      return_to_main: "Return to main"
+      # titles
+      page_title: "Go to work area"
+
+  main:
+    index:
+      main_page: "Main page"
+      proceed: "Proceed to work!"
+      welcome: "Welcome to the Experteeze!"
+      sign_up_now: "Sign up now!"
+      ruby_website: "Ruby on Rails Website"
+      contacts: "Contact"
+      help: "Help"
+      about: "About"
+
+  images:
+    form:
+      save_btn: "Save"
+    edit:
+      show: "Show"
+      edit: "Edit"
+      destroy: "Destroy"
+      back: "Back"
+      title: "Editing image"
+    index:
+      new_image: "New Image"
+      theme: "Theme"
+      avg: "Ave value"
+      file: "File"
+      name: "Name"
+      title: "Listing images"
+      sure: "Are you sure?"
+
+  themes:
+    edit:
+      title: "Editing theme"
+    index:
+      title: "Listing themes"
+      qty: "Qty items"
+      new: "New Theme"
+
+  values:
+    edit:
+      title: "Editing value"
+    index:
+      title: "Listing values"
+      user: "User"
+      value: "Value"
+      image: "Image"
+      new: "New Value"

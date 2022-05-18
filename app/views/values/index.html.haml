@@ -1,0 +1,25 @@
+%h1= t('.title')
+
+%table
+  %thead
+    %tr
+      %th= t('.user')
+      %th= t('.image')
+      %th= t('.value')
+      %th
+      %th
+      %th
+
+  %tbody
+    - @values.each do |value|
+      %tr
+        %td= value.user_id
+        %td= value.image_id
+        %td= value.value
+        %td= link_to t('images.edit.show'), value
+        %td= link_to t('images.edit.edit'), edit_value_path(value)
+        %td= link_to t('images.edit.destroy'), value, method: :delete, data: { confirm: t('images.index.sure') }
+
+%br
+
+= link_to t('.new'), new_value_path

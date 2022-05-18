@@ -1,0 +1,14 @@
+%p#notice= notice
+
+%p
+  %b= t('images.index.name')
+  %b :
+  = @theme.name
+%p
+  %b= t('themes.index.qty')
+  %b :
+  = @theme.qty_items
+
+= link_to t('images.edit.edit'), edit_theme_path(@theme)
+\|
+= link_to t('images.edit.back'), themes_path

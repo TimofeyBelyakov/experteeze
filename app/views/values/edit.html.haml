@@ -1,0 +1,7 @@
+%h1= t('.title')
+
+= render 'form'
+
+= link_to t('images.edit.show'), @value
+\|
+= link_to t('images.edit.back'), values_path

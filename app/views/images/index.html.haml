@@ -1,0 +1,27 @@
+%h1= t('.title')
+
+%table
+  %thead
+    %tr
+      %th= t('.name')
+      %th= t('.file')
+      %th= t('.avg')
+      %th= t('.theme')
+      %th
+      %th
+      %th
+
+  %tbody
+    - @images.each do |image|
+      %tr
+        %td= image.name
+        %td= image.file
+        %td= image.ave_value
+        %td= image.theme_id
+        %td= link_to t('images.edit.show'), image
+        %td= link_to t('images.edit.edit'), edit_image_path(image)
+        %td= link_to t('images.edit.destroy'), image, method: :delete, data: { confirm: t('.sure') }
+
+%br
+
+= link_to t('.new_image'), new_image_path
