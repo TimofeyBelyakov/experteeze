@@ -15,6 +15,7 @@ gem 'jquery-ui-rails'
 gem 'rails-asset-jqueryui'
 
 # Use SАSS for stylesheets
+gem 'bootstrap'
 gem 'sass-rails'
 gem 'bootstrap-sass'
 

@@ -4,3 +4,9 @@
  *= require flash
  *= require_tree .
  */
+
+@import "bootstrap";
+
+*{
+  font-family: "Fira Code", monospace;
+}
